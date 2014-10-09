@@ -1,0 +1,267 @@
+#imageCell {
+	position: relative;
+	background-color: #104786;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	box-shadow: 0 4px #0d305e;
+	padding-bottom: 5px;
+}
+
+#imageCell > #topContainer {
+	position: relative;
+	display: table;
+	width: 100%;
+	overflow: auto;
+	height: 200px;
+}
+
+#imageCell > #bottomContainer {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 45px;
+}
+
+#imageCell > #topContainer .row {
+	display: table-row;
+}
+
+#imageCell #topContainer > #leftContainer {
+	position: relative;
+	display: table-cell;
+	width: 50%;
+	height: 100%;
+	background-position: center;
+	background-size: 44px 73px;
+	background-repeat: no-repeat;
+	background-color: #3b3b3b;
+	background-image: url("../img/common/question-mark@2x.png");
+}
+
+#imageCell #leftContainer > .spinner {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -10px;
+	margin-top: -11px;
+}
+
+#imageCell #topContainer > #rightContainer {
+	display: table-cell;
+	width: 50%;
+	height: 100%;
+	background-color: white;
+}
+
+/*Header*/
+
+#imageCell #rightContainer > #header {
+	position: relative;
+	display: block;
+	height: 38px;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+#imageCell #header > #usernameClickArea {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#imageCell #header > #avatarWrapper {
+	position: absolute;
+	left: 11px;
+	top: 5px;
+	width: 28px;
+	height: 28px;
+	background-color: #d5d5d5;
+	border-radius: 14px;
+	overflow: hidden;
+}
+
+#imageCell #avatarWrapper > #avatar {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 4px;
+	left: 4px;
+	border-radius: 11px;
+	background-position: center;
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	background-color: #3b3b3b;
+	background-image: url("../img/common/small-question-mark@2x.png");
+}
+
+#imageCell #avatarWrapper > #avatar.withImage {
+	background-size: cover;
+	background-color: transparent;
+}
+
+#imageCell #header > #username {
+	position: absolute;
+	font-size: 10px;
+	color: #c9c9c9;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	top: 7px;
+	left: 48px;
+	right: 8px;
+	height: 14px;
+}
+
+#imageCell #header > #date {
+	position: absolute;
+	font-size: 10px;
+	color: #134c83;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	top: 18px;
+	left: 48px;
+	right: 8px;
+	height: 14px;
+}
+
+/*Body*/
+
+#imageCell #rightContainer > #body {
+	display: block;
+	padding: 15px;
+}
+
+#imageCell #body > #text {
+	display: inline;
+	font-size: 11px;
+	color: #666666;
+}
+
+#imageCell #body > #text.selected {
+	color: #ffffff;
+}
+
+#imageCell #body > #tags {
+	font-size: 9px;
+	color: #134c83;
+}
+
+#imageCell #body > #tags.selected {
+	color: #90b8df;
+}
+
+#imageCell #tags button {
+	margin-left: 2px;
+	height: 25px;
+	color: inherit;
+}
+
+/*Footer*/
+
+#imageCell #bottomContainer > #footer {
+	display: table-cell;
+}
+
+#imageCell #footer > #likesButton {
+	position: absolute;
+	top: 4px;
+	right: 58px;
+	width: 40px;
+	height: 28px;
+}
+
+#imageCell #footer > #likesIcon {
+	position: absolute;
+	top: 9px;
+	right: 79px;
+	width: 10px;
+	height: 9px;
+	background-image: url("../img/common/empty-like-button@2x.png");
+	background-position: center;
+	background-size: 10px 9px;
+	background-repeat: no-repeat;
+}
+
+#imageCell #footer > #likesIcon.full {
+	background-image: url("../img/common/like-button@2x.png");
+}
+
+#imageCell #footer > #likesCount {
+	position: absolute;
+	top: 7px;
+	right: 58px;
+	width: 18px;
+	height: 12px;
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#imageCell #footer > #commentsButton {
+	position: absolute;
+	top: 4px;
+	right: 5px;
+	width: 40px;
+	height: 28px;
+}
+
+#imageCell #footer > #commentsIcon{
+	position: absolute;
+	top: 9px;
+	right: 26px;
+	width: 10px;
+	height: 10px;
+	background-image: url("../img/common/comment-button-white@2x.png");
+	background-position: center;
+	background-size: 10px 10px;
+	background-repeat: no-repeat;
+}
+
+#imageCell #footer > #commentsCount {
+	position: absolute;
+	top: 7px;
+	right: 5px;
+	width: 18px;
+	height: 12px;
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#imageCell #footer > #separationLine {
+	position: absolute;
+	top: 0;
+	right: 50px;
+	width: 1px;
+	height: 25px;
+	background-color: #d5d5d5;
+}
+
+#imageCell #footer > #seensCount {
+	display: inline-block;
+	margin-left: 8px;
+	margin-top: 4px;
+	font-size: 41px;
+	line-height: 41px;
+	font-weight: bold;
+	color: white;
+}
+
+#imageCell #footer > #seensImage {
+	display: inline-block;
+	width: 16px;
+	height: 10px;
+	vertical-align: top;
+	margin-top: 7px;
+	background-image: url("../img/common/eye-icon@2x.png");
+	background-position: center;
+	background-size: 16px 10px;
+}

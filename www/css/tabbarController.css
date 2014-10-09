@@ -1,0 +1,145 @@
+#tabbarController {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#tabbar-content {
+	position: absolute;
+	top: 0;
+	height: inherit;
+	bottom: 49px;
+	left: 0;
+	right: 0;
+}
+
+#tabbar-footer {
+	position: absolute;
+	height: 49px;
+	background-color: #181818;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 0;
+}
+
+#tabbar-footer button {
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 50%;
+	position: absolute;
+}
+
+.tabbar-stretch {
+	display: inline-block;
+	position: relative;
+	width: 20%;
+	height: 49px;
+}
+
+#tabbar-trends-button {
+	width: 36px;
+	height: 47px;
+	margin-left: -18px;
+	margin-top: 2px;
+	background-image: url('../img/tabbar/trends-button@2x.png');
+	background-size: 32px 31px;
+	background-position: center;
+}
+
+#tabbar-trends-button-preload {
+	position: absolute;
+	background-image: url('../img/tabbar/trends-button-selected@2x.png');
+	left: -1000px;
+	top: -1000px;
+}
+
+#tabbar-trends-button.selected {
+	background-image: url('../img/tabbar/trends-button-selected@2x.png');
+}
+
+#tabbar-locate-button {
+	background-image: url('../img/tabbar/locate-button@2x.png');
+	background-size: 32px 35px;
+	background-position: center;
+	width: 36px;
+	height: 49px;
+	margin-left: -18px;
+}
+
+#tabbar-locate-button-preload {
+	position: absolute;
+	background-image: url('../img/tabbar/locate-button-selected@2x.png');
+	left: -1000px;
+	top: -1000px;
+}
+
+#tabbar-locate-button.selected {
+	background-image: url('../img/tabbar/locate-button-selected@2x.png');
+}
+
+#tabbar-camera-button {
+	background-image: url('../img/tabbar/camera-button@2x.png');
+	background-size: 59px 55px;
+	background-position: center;
+	position: absolute;
+	height: 55px;
+	width: 60px;
+	top: -11px;
+	left: 50%;
+	margin-left: -30px;
+}
+
+#tabbar-camera-button-preload {
+	position: absolute;
+	background-image: url('../img/tabbar/camera-button-selected@2x.png');
+	left: -1000px;
+	top: -1000px;
+}
+
+#tabbar-camera-button.selected {
+	background-image: url('../img/tabbar/camera-button-selected@2x.png');
+}
+
+#tabbar-friends-button {
+	background-image: url('../img/tabbar/friends-button@2x.png');
+	background-size: 35px 35px;
+	background-position: center;
+	width: 38px;
+	height: 49px;
+	margin-left: -19px;
+}
+
+#tabbar-friends-button-preload {
+	position: absolute;
+	background-image: url('../img/tabbar/friends-button-selected@2x.png');
+	left: -1000px;
+	top: -1000px;
+}
+
+#tabbar-friends-button.selected {
+	background-image: url('../img/tabbar/friends-button-selected@2x.png');
+}
+
+#tabbar-me-button {
+	background-image: url('../img/tabbar/me-button@2x.png');
+	background-size: 23px 35px;
+	background-position: center;
+	width: 36px;
+	height: 49px;
+	margin-left: -18px;
+}
+
+#tabbar-me-button-preload {
+	position: absolute;
+	background-image: url('../img/tabbar/me-button-selected@2x.png');
+	left: -1000px;
+	top: -1000px;
+}
+
+#tabbar-me-button.selected {
+	background-image: url('../img/tabbar/me-button-selected@2x.png');
+}
+

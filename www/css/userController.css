@@ -1,0 +1,167 @@
+#userController {
+	position: absolute;
+	left: 100%;
+	right: -100%;
+	top: 0;
+	bottom: 0;
+	background-color: #124c8f;
+	transition: transform 0.3s ease-in-out;
+	-webkit-transition: -webkit-transform 0.3s ease-in-out;
+}
+
+
+#userController.slide {
+	transform: translate3d(-100%, 0, 0);
+	-webkit-transform: translate3d(-100%, 0, 0);
+}
+
+#userController > #tableView {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #124c8f;
+}
+
+#userController #tableView > #cellsContainer {
+	padding: 8px;
+	background-color: #124c8f;
+}
+
+#userController #tableView > #header {
+	padding-top: 19px;
+	background-color: #124c8f;
+}
+
+#userController > #backButton {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50px;
+	height: 36px;
+	background-image: url("../img/common/back-arrow@2x.png");
+	background-size: 18px 14px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+}
+
+#userController > #friendButton {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0 15px 0 15px;
+	height: 36px;
+	background-color: #e00127;
+	overflow: hidden
+}
+
+#userController > #friendButton > #friendIcon {
+	float: left;
+	width: 15px;
+	height: 36px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 15px 17px;
+	background-image: url("../img/user/user@2x.png");
+}
+
+#userController > #friendButton > #friendText {
+	float: left;
+	color: #ffffff;
+	font-size: 10px;
+	line-height: 36px;
+	vertical-align: middle;
+	margin-left: 10px
+}
+
+
+#userController #tableView > #header > #avatarWrapper {
+	margin: auto;
+	width: 128px;
+	height: 128px;
+	background-color: white;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+#userController #tableView > #header > #avatarWrapper > #avatar {
+	width: 108px;
+	height: 108px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #3b3b3b;
+	background-image: url("../img/common/question-mark@2x.png");
+	background-size: 44px 73px;
+}
+
+#userController #tableView > #header > #avatarWrapper > #avatar.withImage {
+	background-size: cover;
+	background-color: transparent;
+}
+
+#userController #tableView > #header > #username {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 14px;
+	color: white;
+	margin-top: 8px;
+	text-align: center;
+}
+
+#userController #tableView > #header > #description {
+	display: block;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+}
+
+#userController #tableView > #header > #postsRect {
+	display: inline-block;
+	width: 50%;
+	height: 29px;
+	margin-top: 28px;
+	padding-top: 7px;
+	background-color: white;
+}
+
+#userController #tableView > #header > #likesRect {
+	display: inline-block;
+	width: 50%;
+	height: 29px;
+	margin-top: 28px;
+	padding-top: 7px;
+	background-color: #104786;
+}
+
+#userController .rectText {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+}
+
+#userController #postsRect > #postsCount {
+	margin-left: 23px;
+	color: #161616;
+}
+
+#userController #postsRect > #postsText {
+	margin-left: 6px;
+	color: #124c8f;
+}
+
+#userController #likesRect > #likesCount {
+	margin-left: 23px;
+	color: #161616;
+}
+
+#userController #likesRect > #likesText {
+	margin-left: 6px;
+	color: white;
+}

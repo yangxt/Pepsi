@@ -1,0 +1,82 @@
+#editMeController {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	bottom: -100%;
+	background-color: white;
+}
+
+#editMeController.withTransition {
+	transition: transform 0.3s ease-in-out;
+	-webkit-transition: -webkit-transform 0.3s ease-in-out;
+}
+
+#editMeController.slide {
+	transform: translate3d(0, -100%, 0);
+	-webkit-transform: translate3d(0, -100%, 0);
+}
+
+#editMeController > button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0 15px 0 15px;
+	height: 36px;
+	background-color: #e00127;
+	color: #ffffff;
+	font-size: 10px;
+}
+
+#editMeController > .spinner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -10px;
+	margin-top: -11px;
+}
+
+#editMeController input {
+	display: block;
+	position: relative;
+	background-color: #cac9cb;
+	width: 282px;
+	height: 24px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #bcbbbd;
+	border-radius: 0;
+	left: 50%;
+	margin-left: -150px;
+	padding: 8px;
+	font-size: 15px;
+}
+
+#editMeController > #nameInput {
+	margin-top: 50px;
+}
+
+#editMeController > #descriptionInput {
+	margin-top: 15px;
+}
+
+#editMeController > #imageButton {
+	display: block;
+	position: relative;
+	margin: auto;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: 15px;
+	width: 300px;
+	height: 42px;
+	background-color: #124c8f;
+	font-size: 15px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #0d3a6d;
+	color: white;
+}
+
+#editMeController > #doneButton {
+	width: 100px;
+}

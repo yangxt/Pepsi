@@ -1,0 +1,33 @@
+#friendsController {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+}
+
+#friendsController > #tableView {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	background-color: #124c8f;
+}
+
+#friendsController #tableView > #cellsContainer {
+	padding: 8px;
+}
+
+#friendsController > p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	margin-left: -100px;
+	margin-top: -25px;
+	color: white;
+	font-size: 20px;
+}

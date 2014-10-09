@@ -1,0 +1,81 @@
+#alert {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#alert > div {
+	position: absolute;
+	background-color: white;
+	box-shadow: 0 0 10px black;
+	text-align: center;
+	width: 200px;
+	top: 50%;
+	left: 50%;
+	margin-left: -100px;
+	/*name duration timing delay iteration-count direction*/
+	-webkit-animation: popUp 0.3s ease-in-out 0 1;
+	animation: popUp 0.3s ease-in-out 0 1;
+}
+
+@-webkit-keyframes popUp {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1.0;
+	}
+}
+
+@keyframes popUp {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1.0;
+	}
+}
+
+#alert > div > h1 {
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	margin: 10px;
+	padding-bottom: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-width: 0 0 1px 0;
+	border-style: dashed;
+	border-color: black;
+}
+
+#alert > div > p {
+	text-align: center;
+	color: black;
+	font-size: 16px;
+	margin: 7px 10px 10px 10px;
+	max-height: 125px;
+	overflow: hidden;
+	border-width: 0 0 1px 0;
+	border-style: dashed;
+	border-color: black;
+	padding-bottom: 10px
+}
+
+#alert > div > button {
+	margin: auto;
+	margin-bottom: 10px;
+	width: 50px;
+	height: 30px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	font-size: 14px;
+}

@@ -1,0 +1,128 @@
+#meController {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #124c8f;
+}
+
+#meController > #tableView {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #124c8f;
+}
+
+#meController #tableView > #cellsContainer {
+	padding: 8px;
+	background-color: #124c8f;
+}
+
+#meController #tableView > #header {
+	padding-top: 19px;
+	background-color: #124c8f;
+}
+
+#meController > button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0 15px 0 15px;
+	height: 36px;
+	background-color: #e00127;
+	color: #ffffff;
+	font-size: 10px;
+}
+
+
+#meController #tableView > #header > #avatarWrapper {
+	margin: auto;
+	width: 128px;
+	height: 128px;
+	background-color: white;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+#meController #tableView > #header > #avatarWrapper > #avatar {
+	width: 108px;
+	height: 108px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #3b3b3b;
+	background-image: url("../img/common/question-mark@2x.png");
+	background-size: 44px 73px;
+}
+
+#meController #tableView > #header > #avatarWrapper > #avatar.withImage {
+	background-size: cover;
+	background-color: transparent;
+}
+
+#meController #tableView > #header > #username {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 14px;
+	color: white;
+	margin-top: 8px;
+	text-align: center;
+}
+
+#meController #tableView > #header > #description {
+	display: block;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+}
+
+#meController #tableView > #header > #postsRect {
+	display: inline-block;
+	width: 50%;
+	height: 29px;
+	margin-top: 28px;
+	padding-top: 7px;
+	background-color: white;
+}
+
+#meController #tableView > #header > #likesRect {
+	display: inline-block;
+	width: 50%;
+	height: 29px;
+	margin-top: 28px;
+	padding-top: 7px;
+	background-color: #104786;
+}
+
+#meController .rectText {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+}
+
+#meController #postsRect > #postsCount {
+	margin-left: 23px;
+	color: #161616;
+}
+
+#meController #postsRect > #postsText {
+	margin-left: 6px;
+	color: #124c8f;
+}
+
+#meController #likesRect > #likesCount {
+	margin-left: 23px;
+	color: #161616;
+}
+
+#meController #likesRect > #likesText {
+	margin-left: 6px;
+	color: white;
+}
